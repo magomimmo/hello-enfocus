@@ -7,11 +7,11 @@
   :source-paths ["src/clj"]
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-1913"]
-                 [org.cljars.magomimmo/enfocus "2.0.1-SNAPSHOT"]]
+                 [org.clojars.magomimmo/enfocus "2.0.1-SNAPSHOT"]]
   :plugins [[lein-cljsbuild "0.3.3"]]
 
   :cljsbuild {:builds {:whitespace
-                       {:source-patsh ["src/cljs"]
+                       {:source-paths ["src/cljs"]
                         :compiler 
                         {:output-to "resources/public/js/hello.js"
                          :optimizations :whitespace
