@@ -7,7 +7,7 @@
   :source-paths ["src/clj"]
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-1847"]
-                 [enfocus "2.1.0-SNAPSHOT"]]
+                 [org.clojars.magomimmo/enfocus "2.1.0-SNAPSHOT"]]
   :plugins [[lein-cljsbuild "0.3.4"]]
   :hooks [leiningen.cljsbuild]
 
